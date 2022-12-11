@@ -18,3 +18,44 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-list {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.country-info {
+  width: 600px;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid rgb(83, 83, 83);
+  border-radius: 20px;
+}
+.text__country {
+  font-size: 1.5em;
+  font-weight: bold;
+
+  line-height: 0.5;
+}
+
+.list-flag {
+  width: 200px;
+  border: 2px solid rgb(60, 60, 60);
+  border-radius: 20px;
+}
+.big {
+  width: 500px;
+}
+.li-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 275px;
+  border: 2px solid rgb(83, 83, 83);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
